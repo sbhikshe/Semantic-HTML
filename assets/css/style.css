@@ -88,23 +88,21 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+/* Changed .benefit_lead, 
+.benefit_brand,
+.benefit_cost to new class .benefits_section */
+/* Use new .benefits_section class selector for h3 and img below */
+.benefits-section {
     margin-bottom: 32px;
     color: #ffffff;    
 }
 
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
+.benefits-section h3 {
     margin-bottom: 10px;
     text-align: center;    
 }
 
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
+.benefits-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;    
