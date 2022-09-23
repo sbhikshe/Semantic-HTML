@@ -8,8 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Replace class .header with header element selector */
-/* for all the following CSS elements for the header */
+/* Replace class .header with header element selector. */
+/* Change applies to all of the CSS for the header. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,7 +22,7 @@ header h1 {
     font-size: 48px;
 }
 
-/* Changed span with .seo to mark */
+/* Changed span with .seo to mark. */
 /* Default highlight color is yellow, so need to set
 bg color to the same as the header */
 header h1 mark {
@@ -53,6 +53,7 @@ p {
     font-size: 16px;
 }
 
+/* Image CSS */
 .hero {
     height: 800px;
     width: 100%;
@@ -67,6 +68,7 @@ p {
     margin-right: 25px;
 }
 
+/* CSS for the articles below the image */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -139,7 +141,6 @@ footer {
     text-align: center;
 }
 
-/* convert to footer element as selector */
 footer h2 {
     font-size: 20px;
 }
