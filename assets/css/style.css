@@ -78,6 +78,30 @@ p {
     margin-left: 20px;
 }
 
+/* Changed .search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing to new class .content_section article */
+/* Style is common to all 3 articles */
+/* Use .content_section class selector for this */
+/* and for img and h2 below this */
+.content_section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;   
+}
+
+.content_section img {
+    max-height: 200px;
+}
+
+.content_section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;    
+}
+
 /* Removed .benefits class and .benefits_section from 
 previous version, and using aside as selector */
 aside {
@@ -105,30 +129,6 @@ aside img {
 
 aside p {
     margin-bottom: 32px;
-}
-
-/* Changed .search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing to new class .content_section */
-/* Style is common to all 3 sections */
-/* Use .content_section class selector for this */
-/* and for img and h2 below this */
-.content_section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;   
-}
-
-.content_section img {
-    max-height: 200px;
-}
-
-.content_section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;    
 }
 
 /* convert to footer element as selector */
